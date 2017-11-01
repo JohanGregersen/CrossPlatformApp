@@ -3,22 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XPlat_Framework", "XPlat Framework\XPlat_Framework\XPlat_Framework.shproj", "{DA25F256-5F2D-49C5-B964-8E7C9E7D3976}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DriveLab", "DriveLab\XPlat_Framework\DriveLab.shproj", "{DA25F256-5F2D-49C5-B964-8E7C9E7D3976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlat_Framework.Android", "XPlat Framework\XPlat_Framework.Android\XPlat_Framework.Android.csproj", "{B26C192E-6EA0-4B3D-AAAD-2D2D796DEA9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLab.Android", "DriveLab\XPlat_Framework.Android\DriveLab.Android.csproj", "{B26C192E-6EA0-4B3D-AAAD-2D2D796DEA9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlat_Framework.iOS", "XPlat Framework\XPlat_Framework.iOS\XPlat_Framework.iOS.csproj", "{34B6A5D4-8927-4FE8-BCA6-8FFDB826C61A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLab.iOS", "DriveLab\XPlat_Framework.iOS\DriveLab.iOS.csproj", "{34B6A5D4-8927-4FE8-BCA6-8FFDB826C61A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlat_Framework.UWP", "XPlat Framework\XPlat_Framework.UWP\XPlat_Framework.UWP.csproj", "{821D4DB5-1773-46F2-BCE5-7F54AC95F857}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLab.UWP", "DriveLab\XPlat_Framework.UWP\DriveLab.UWP.csproj", "{821D4DB5-1773-46F2-BCE5-7F54AC95F857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlat_Framework.MobileAppService", "XPlat Framework\XPlat_Framework.MobileAppService\XPlat_Framework.MobileAppService.csproj", "{FEE0FC9A-9F98-4D1D-B251-D93FFE7E7ACE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLab.MobileAppService", "DriveLab\XPlat_Framework.MobileAppService\DriveLab.MobileAppService.csproj", "{FEE0FC9A-9F98-4D1D-B251-D93FFE7E7ACE}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		XPlat Framework\XPlat_Framework\XPlat_Framework.projitems*{34b6a5d4-8927-4fe8-bca6-8ffdb826c61a}*SharedItemsImports = 4
-		XPlat Framework\XPlat_Framework\XPlat_Framework.projitems*{821d4db5-1773-46f2-bce5-7f54ac95f857}*SharedItemsImports = 4
-		XPlat Framework\XPlat_Framework\XPlat_Framework.projitems*{b26c192e-6ea0-4b3d-aaad-2d2d796dea9a}*SharedItemsImports = 4
-		XPlat Framework\XPlat_Framework\XPlat_Framework.projitems*{da25f256-5f2d-49c5-b964-8e7c9e7d3976}*SharedItemsImports = 13
+		DriveLab\XPlat_Framework\XPlat_Framework.projitems*{34b6a5d4-8927-4fe8-bca6-8ffdb826c61a}*SharedItemsImports = 4
+		DriveLab\XPlat_Framework\XPlat_Framework.projitems*{821d4db5-1773-46f2-bce5-7f54ac95f857}*SharedItemsImports = 4
+		DriveLab\XPlat_Framework\XPlat_Framework.projitems*{b26c192e-6ea0-4b3d-aaad-2d2d796dea9a}*SharedItemsImports = 4
+		DriveLab\XPlat_Framework\XPlat_Framework.projitems*{da25f256-5f2d-49c5-b964-8e7c9e7d3976}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
