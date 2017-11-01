@@ -27,6 +27,27 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Data Warehouse\DBController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\ICar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\Dimensions\ITimeDimention.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\IFact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\Dimensions\IDateDimension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\ISpatialInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\ITemporalInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\ISegmentInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\IQualityInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\IMeasureInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Interfaces\IFlagInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\Dimensions\DateDimension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\Dimensions\TimeDimention.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\Car.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\Fact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\FlagInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\MeasureInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\QualityInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\SegmentInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\SpatialInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Types\TemporalInformation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
@@ -50,8 +71,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Data Warehouse\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\Interfaces\Dimensions\" />
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
   </ItemGroup>
 </Project>
